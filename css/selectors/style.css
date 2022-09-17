@@ -46,10 +46,16 @@ p:hover .extra {
     box-shadow: 5px 5px lightgray, -5px -5px lightgray;
 }
 
+p::selection {
+    background-color: black;
+    color: lime;
+}
+
 [title] {
     cursor: help;
 }
 
 p {
-    margin-bottom: 4px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid gray;
 }
