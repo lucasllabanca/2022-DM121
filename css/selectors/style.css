@@ -12,12 +12,21 @@ h1 {
     border: 1px solid red;
 }
 
-.highlight {
-    padding: 2px;
-    background-color: lime;
+p, .highlight {
+    transition: all 0.5s ease-in-out;
 }
 
-.extra {
+p:hover {
+    color: #EEE;
+}
+
+p:hover .highlight{
+    padding: 2px;
+    background-color: lime;
+    color: black;
+}
+
+p:hover .extra {
     border-radius: 14px;
     border: 2px solid green;
     box-shadow: 5px 5px lightgray, -5px -5px lightgray;
@@ -25,4 +34,8 @@ h1 {
 
 [title] {
     cursor: help;
+}
+
+p {
+    margin-bottom: 4px;
 }
