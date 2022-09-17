@@ -1,0 +1,39 @@
+* {
+    font-family: Montserrat;
+    box-sizing: border-box;
+}
+
+.toast {
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid gray;
+    display: flex;
+    gap: 12px;
+    padding: 12px;
+    width: 320px;
+}
+
+.toast .icon {
+    width: 32px;
+    height: 32px;
+    background: url("images/infoButton.svg") no-repeat;
+}
+
+.toast section {
+    flex-grow: 1;
+}
+
+.toast h2 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.toast p {
+    font-size: 14px;
+    margin: 4px 0 0 0;
+}
+
+.toast header {
+    display: flex;
+    justify-content: space-between;
+}
