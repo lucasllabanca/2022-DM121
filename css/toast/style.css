@@ -35,6 +35,7 @@ body > div {
 .toast p {
     font-size: 14px;
     margin: 4px 0 0 0;
+    color: #4D4D4D;
 }
 
 .toast header {
