@@ -3,9 +3,23 @@
     padding: 0;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:link:hover {
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+a:link[href^='http']::before {
+    content: "[Arrow] ";
+}
+
 #header {
     background-color: darkslategray;
     padding: 15px;
+    margin-bottom: 20px;
 }
 
 h1 {
